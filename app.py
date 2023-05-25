@@ -1,13 +1,6 @@
 import streamlit as st
 import joblib
 import pandas as pd
-import pyttsx4
-
-
-def speak(speaker):
-    word = pyttsx4.init()
-    word.say(speaker)
-    word.runAndWait()
 
 def main():
     html = "<div style='background-color: blue'> <h2 style='text-align: center'> Fitting Prediciton App </h2></div>"
